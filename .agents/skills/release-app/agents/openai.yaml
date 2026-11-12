@@ -1,0 +1,6 @@
+interface:
+  display_name: "/release_app"
+  short_description: "명시적 앱 릴리즈: main 병합·태그와 Play 비공개 테스트 검토 제출"
+  default_prompt: "Use $release-app to release the selected Meow Studio app to Google Play closed testing, with notes since the latest live Production release."
+policy:
+  allow_implicit_invocation: false
